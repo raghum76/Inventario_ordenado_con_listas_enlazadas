@@ -9,7 +9,7 @@ namespace Estructura_de_datos___Listas_enlazadas
     public class Producto
     {
 
-        public Producto productoSiguiente;
+        public Producto productoSiguiente{get;set;}
         String _nombre;
         String _cantidad;
         String _codigo;
